@@ -1,0 +1,63 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Microsoft Visual Studios
+*.sdf
+*.opensdf
+*.v11.suo
+StarEngine.v11.suo
+
+# Microsoft Visual Studios Performance analyze files
+*.psess
+*.vspx
+
+# Generated Directories
+bin/
+gen/
+Debug/
+Release/
+Obj/
+.svn/
+
+# batch files
+*.bat
+
+# ignore unwanted files
+*.lnk
+
+# ignore game files
+.cproject
+.classpath
+.project
+AndroidManifest.xml
+AutomatedDeploy.bat
+build.xml
+Game.sln
+Game.vcxproj
+Game.vcxproj.filters
+Game.vcxproj.user
+ic_launcher-web.png
+lint.xml
+proguard-project.txt
+project.properties
+stargame.rc
+us.stackdump
+Win32Manifest.xml
+data/
+
+# eclipse build
+armeabi/
+
+# starengine files
+*.star

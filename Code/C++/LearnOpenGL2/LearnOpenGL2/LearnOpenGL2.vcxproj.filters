@@ -18,5 +18,41 @@
     <ClCompile Include="hellotriangle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="hellotriangle2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="01_hellotriangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="02_hellotriangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_systems_multiple_objects.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="path\to\shaders\textures.vs">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="path\to\shaders\textures.frag">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="container.jpg">
+      <Filter>源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>

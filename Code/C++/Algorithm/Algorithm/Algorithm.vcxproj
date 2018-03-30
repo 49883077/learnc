@@ -11,6 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="004. Median of Two Sorted Arrays.cpp" />
+    <ClCompile Include="004_Edit.cpp" />
+    <ClCompile Include="005. Longest Palindromic Substring.cpp" />
+    <ClCompile Include="EnCode.cpp" />
     <ClCompile Include="MatrixUDG.cpp" />
     <ClCompile Include="mazeProblem.cpp" />
     <ClCompile Include="MeMatrixUDG.cpp" />

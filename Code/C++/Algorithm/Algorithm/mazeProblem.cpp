@@ -72,7 +72,7 @@ void mazePath(vector<vector<int>> maze, int row, int col, Point &start, Point& e
 }
 
 
-void main()
+void main3()
 {
 	vector<vector<int>> maze = {
 		{ 0, 0, 0, 0, 0 },

@@ -24,5 +24,17 @@
     <ClCompile Include="mazeProblem.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="EnCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="004. Median of Two Sorted Arrays.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="004_Edit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="005. Longest Palindromic Substring.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

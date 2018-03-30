@@ -39,8 +39,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>I:\Code\Libs\glfw-3.2.1\include;I:\Code\Libs\glew-2.1.0\include;$(IncludePath)</IncludePath>
-    <LibraryPath>I:\Code\Libs\glfw-3.2.1\lib-vc2013;I:\Code\Libs\glew-2.1.0\lib\Release\Win32;$(LibraryPath)</LibraryPath>
+    <IncludePath>I:\learnc\Code\Libs\glfw-3.2.1\include;I:\learnc\Code\Libs\glew-2.1.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>I:\learnc\Code\Libs\glfw-3.2.1\lib-vc2013;I:\learnc\Code\Libs\glew-2.1.0\lib\Release\Win32;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -51,7 +51,7 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32.lib;glew32s.lib
-;%(AdditionalDependencies)</AdditionalDependencies>
+;SOIL.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>MSVCR.lib</IgnoreSpecificDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
@@ -70,7 +70,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="01_hellotriangle.cpp" />
+    <ClCompile Include="02_hellotriangle.cpp" />
+    <ClCompile Include="coordinate_systems.cpp" />
+    <ClCompile Include="coordinate_systems_multiple_objects.cpp" />
     <ClCompile Include="hellotriangle.cpp" />
+    <ClCompile Include="hellotriangle2.cpp" />
+    <ClCompile Include="TextureTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="path\to\shaders\textures.frag" />
+    <None Include="path\to\shaders\textures.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="container.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
