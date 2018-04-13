@@ -61,10 +61,14 @@ void mazePath(vector<vector<int>> maze, int row, int col, Point &start, Point& e
 		//»ØËÝ
 		if (adjP.row == -1 || adjP.col == -1)
 		{
+			printf("pop(%d,%d)\n ", pointStack.top().row, pointStack.top().col);
+
 			pointStack.pop();
 			continue;
 		}
 		visited[adjP.row][adjP.col] = 1;
+		printf("push(%d,%d)\n ", adjP.row, adjP.col);
+
 		pointStack.push(adjP);
 	}
 	
@@ -72,21 +76,21 @@ void mazePath(vector<vector<int>> maze, int row, int col, Point &start, Point& e
 }
 
 
-void main3()
+void mainMaze()
 {
 	vector<vector<int>> maze = {
 		{ 0, 0, 0, 0, 0 },
-		{ 0, 1, 0, 1, 0 },
-		{ 0, 1, 0, 0, 0 },
-		{ 1, 1, 1, 0, 1 },
+		{ 0, 0, 0, 0, 0 },
+		{ 0, 0, 0, 0, 0 },
+		{ 0, 0, 0, 0, 0 },
 		{ 0, 0, 0, 0, 0 }
 	};
 
 	int col = maze[0].size();
 	int row = maze.size();
 
-	Point starP(0, 0);
-	Point endP(4, 4);
+	Point starP(0, 2);
+	Point endP(2, 2);
 	//mazePath(maze, 5, 5, startP, endP, )
 	stack<Point> pointStack;
 	mazePath(maze,row, col, starP, endP, pointStack);
@@ -104,7 +108,7 @@ void main3()
 			pointStack.pop();
 		}
 		while (tmpStack.empty() == false){
-			printf("(%d,%d) ", tmpStack.top().row, tmpStack.top().col);
+			printf("(%d,%d)\n ", tmpStack.top().row, tmpStack.top().col);
 			tmpStack.pop();
 		}
 	}
