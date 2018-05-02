@@ -325,8 +325,6 @@ struct _AstarNode *FindPath(int SrcX, int SrcY, int DstX, int DstY, struct _Asta
 
 }
 
-
-
 int mainAstar()
 {
 	struct _AstarNode *AStarMap = NewAstarMap(16, 16, MapBlocks);

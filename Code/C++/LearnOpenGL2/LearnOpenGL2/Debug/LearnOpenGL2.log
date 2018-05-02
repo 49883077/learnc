@@ -1,20 +1,22 @@
-﻿生成启动时间为 2018/3/30 星期五 下午 6:00:10。
+﻿生成启动时间为 2018/4/23 星期一 下午 4:11:52。
      1>项目“I:\learnc\Code\C++\LearnOpenGL2\LearnOpenGL2\LearnOpenGL2.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt coordinate_systems_multiple_objects.cpp
-         coordinate_systems_multiple_objects.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt camera_circle.cpp
+         camera_circle.cpp
+     1>i:\learnc\code\c++\learnopengl2\learnopengl2\camera_circle.cpp(202): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>i:\learnc\code\c++\learnopengl2\learnopengl2\camera_circle.cpp(203): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\learnc\Code\C++\LearnOpenGL2\Debug\LearnOpenGL2.exe" /INCREMENTAL /NOLOGO opengl32.lib glfw3.lib glew32.lib glew32s.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:MSVCR.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:\learnc\Code\C++\LearnOpenGL2\Debug\LearnOpenGL2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\learnc\Code\C++\LearnOpenGL2\Debug\LearnOpenGL2.lib" /MACHINE:X86 Debug\01_hellotriangle.obj
          Debug\02_hellotriangle.obj
+         Debug\camera_circle.obj
          Debug\coordinate_systems.obj
          Debug\coordinate_systems_multiple_objects.obj
          Debug\hellotriangle.obj
          Debug\hellotriangle2.obj
          Debug\TextureTest.obj
-     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
          LearnOpenGL2.vcxproj -> I:\learnc\Code\C++\LearnOpenGL2\Debug\LearnOpenGL2.exe
      1>已完成生成项目“I:\learnc\Code\C++\LearnOpenGL2\LearnOpenGL2\LearnOpenGL2.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.81
+已用时间 00:00:00.73

@@ -72,6 +72,7 @@
   <ItemGroup>
     <ClCompile Include="01_hellotriangle.cpp" />
     <ClCompile Include="02_hellotriangle.cpp" />
+    <ClCompile Include="camera_circle.cpp" />
     <ClCompile Include="coordinate_systems.cpp" />
     <ClCompile Include="coordinate_systems_multiple_objects.cpp" />
     <ClCompile Include="hellotriangle.cpp" />

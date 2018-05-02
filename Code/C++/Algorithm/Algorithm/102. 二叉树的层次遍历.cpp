@@ -161,7 +161,7 @@ public:
 };
 
 
-void main()
+void main102()
 {
 	/*TreeNode* node5 = new TreeNode(5);
 	TreeNode* node4 = new TreeNode(4);

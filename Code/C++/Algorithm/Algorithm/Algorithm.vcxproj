@@ -16,17 +16,46 @@
     <ClCompile Include="005. Longest Palindromic Substring.cpp" />
     <ClCompile Include="009. Palindrome Number.cpp" />
     <ClCompile Include="011. Container With Most Water.cpp" />
+    <ClCompile Include="021. Merge Two Sorted Lists.cpp" />
+    <ClCompile Include="052. N皇后 II.cpp" />
+    <ClCompile Include="053. 最大子序和.cpp" />
+    <ClCompile Include="062. 不同路径.cpp" />
+    <ClCompile Include="063.cpp" />
+    <ClCompile Include="064. 最小路径和.cpp" />
     <ClCompile Include="094. Binary Tree Traversal.cpp" />
     <ClCompile Include="102. 二叉树的层次遍历.cpp" />
+    <ClCompile Include="105. 从前序与中序遍历序列构造二叉树.cpp" />
+    <ClCompile Include="108. 将有序数组转换为二叉搜索树.cpp" />
+    <ClCompile Include="114. 二叉树转换链表.cpp" />
+    <ClCompile Include="116. 每个节点的右向指针.cpp" />
+    <ClCompile Include="118. 帕斯卡三角形.cpp" />
+    <ClCompile Include="120. 三角形最小路径和.cpp" />
+    <ClCompile Include="121. 买卖股票的最佳时机.cpp" />
+    <ClCompile Include="122. 买卖股票的最佳时机 II.cpp" />
+    <ClCompile Include="129. 求根到叶子节点数字之和.cpp" />
+    <ClCompile Include="150. 逆波兰表达式求值.cpp" />
+    <ClCompile Include="155 最小栈.cpp" />
+    <ClCompile Include="198. 打家劫舍.cpp" />
     <ClCompile Include="349. Intersection of Two Arrays.cpp" />
+    <ClCompile Include="538. 把二叉搜索树转换为累加树.cpp" />
     <ClCompile Include="647. Palindromic Substrings.cpp" />
     <ClCompile Include="657. Judge Route Circle.cpp" />
+    <ClCompile Include="712. 两个字符串的最小ASCII删除和.cpp" />
     <ClCompile Include="AStart.cpp" />
     <ClCompile Include="EnCode.cpp" />
     <ClCompile Include="MatrixUDG.cpp" />
     <ClCompile Include="mazeProblem.cpp" />
     <ClCompile Include="MeMatrixUDG.cpp" />
     <ClCompile Include="Rotation.cpp" />
+    <ClCompile Include="回文判断.cpp" />
+    <ClCompile Include="字符串的全排列.cpp" />
+    <ClCompile Include="链表反转.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TreeNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="109. 有序链表转换二叉搜索树.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D5F65079-60C8-4264-A6EA-374114379EB4}</ProjectGuid>

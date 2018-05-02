@@ -36,6 +36,9 @@
     <ClCompile Include="coordinate_systems_multiple_objects.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="camera_circle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
