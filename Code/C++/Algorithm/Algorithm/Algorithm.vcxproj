@@ -16,6 +16,9 @@
     <ClCompile Include="005. Longest Palindromic Substring.cpp" />
     <ClCompile Include="009. Palindrome Number.cpp" />
     <ClCompile Include="011. Container With Most Water.cpp" />
+    <ClCompile Include="014. 最长公共前缀.cpp" />
+    <ClCompile Include="016. 最接近的三数之和.cpp" />
+    <ClCompile Include="018. 四数之和.cpp" />
     <ClCompile Include="021. Merge Two Sorted Lists.cpp" />
     <ClCompile Include="052. N皇后 II.cpp" />
     <ClCompile Include="053. 最大子序和.cpp" />
@@ -41,14 +44,17 @@
     <ClCompile Include="647. Palindromic Substrings.cpp" />
     <ClCompile Include="657. Judge Route Circle.cpp" />
     <ClCompile Include="712. 两个字符串的最小ASCII删除和.cpp" />
+    <ClCompile Include="sort.cpp" />
     <ClCompile Include="AStart.cpp" />
     <ClCompile Include="EnCode.cpp" />
     <ClCompile Include="MatrixUDG.cpp" />
     <ClCompile Include="mazeProblem.cpp" />
     <ClCompile Include="MeMatrixUDG.cpp" />
     <ClCompile Include="Rotation.cpp" />
+    <ClCompile Include="strcmp.cpp" />
     <ClCompile Include="回文判断.cpp" />
     <ClCompile Include="字符串的全排列.cpp" />
+    <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="链表反转.cpp" />
   </ItemGroup>
   <ItemGroup>

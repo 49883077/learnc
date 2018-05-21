@@ -9,4 +9,6 @@ uniform sampler2D ourTexture;
 void main()
 {
     color = texture(ourTexture, TexCoord) * vec4(ourColor,1.0f);
+	color.xyz =  vec3(0.2126*color.r + 0.7152*color.g + 0.0722*color.b);
+
 }

@@ -83,6 +83,8 @@
     <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="path\to\shaders\shader.frag" />
+    <None Include="path\to\shaders\shader.vs" />
     <None Include="path\to\shaders\textures.frag" />
     <None Include="path\to\shaders\textures.vs" />
   </ItemGroup>

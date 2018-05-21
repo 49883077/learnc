@@ -1,14 +1,20 @@
-﻿生成启动时间为 2018/4/27 星期五 下午 5:06:24。
+﻿生成启动时间为 2018/5/15 星期二 上午 9:08:23。
      1>项目“I:\learnc\Code\C++\Algorithm\Algorithm\Algorithm.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "712. 两个字符串的最小ASCII删除和.cpp"
-         712. 两个字符串的最小ASCII删除和.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "018. 四数之和.cpp" sort.cpp "17. 电话号码的字母组合.cpp"
+         17. 电话号码的字母组合.cpp
+         sort.cpp
+         018. 四数之和.cpp
+         正在生成代码...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\learnc\Code\C++\Algorithm\Debug\Algorithm.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:\learnc\Code\C++\Algorithm\Debug\Algorithm.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\learnc\Code\C++\Algorithm\Debug\Algorithm.lib" /MACHINE:X86 "Debug\004. Median of Two Sorted Arrays.obj"
          Debug\004_Edit.obj
          "Debug\005. Longest Palindromic Substring.obj"
          "Debug\009. Palindrome Number.obj"
          "Debug\011. Container With Most Water.obj"
+         "Debug\014. 最长公共前缀.obj"
+         "Debug\016. 最接近的三数之和.obj"
+         "Debug\018. 四数之和.obj"
          "Debug\021. Merge Two Sorted Lists.obj"
          "Debug\052. N皇后 II.obj"
          "Debug\053. 最大子序和.obj"
@@ -28,23 +34,27 @@
          "Debug\129. 求根到叶子节点数字之和.obj"
          "Debug\150. 逆波兰表达式求值.obj"
          "Debug\155 最小栈.obj"
+         "Debug\198. 打家劫舍.obj"
          "Debug\349. Intersection of Two Arrays.obj"
          "Debug\538. 把二叉搜索树转换为累加树.obj"
          "Debug\647. Palindromic Substrings.obj"
          "Debug\657. Judge Route Circle.obj"
          "Debug\712. 两个字符串的最小ASCII删除和.obj"
+         Debug\sort.obj
          Debug\AStart.obj
          Debug\EnCode.obj
          Debug\MatrixUDG.obj
          Debug\mazeProblem.obj
          Debug\MeMatrixUDG.obj
          Debug\Rotation.obj
+         Debug\strcmp.obj
          "Debug\回文判断.obj"
          "Debug\字符串的全排列.obj"
+         "Debug\17. 电话号码的字母组合.obj"
          "Debug\链表反转.obj"
          Algorithm.vcxproj -> I:\learnc\Code\C++\Algorithm\Debug\Algorithm.exe
      1>已完成生成项目“I:\learnc\Code\C++\Algorithm\Algorithm\Algorithm.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.61
+已用时间 00:00:03.56

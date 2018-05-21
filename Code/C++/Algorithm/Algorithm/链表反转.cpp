@@ -29,8 +29,49 @@ ListNode* reverse(ListNode* list){
 }
 
 
+ListNode* reverse2(ListNode* head){
 
-void main_110086()
+	ListNode* p;
+	ListNode* q;
+	ListNode* r;
+
+	if (head == NULL || head->next == NULL)
+	{
+		return head;
+	}
+	else
+	{
+		p = head;
+		q = head->next;
+		head->next = NULL;
+		while (q)
+		{
+			r = q->next;
+			q->next = p;
+			p = q;
+			q = r;
+		}
+		head = p;	
+	}
+	return head;
+}
+
+
+ListNode* reverse3(ListNode* head){
+	
+	ListNode* prev = nullptr;
+	ListNode* curr = head;
+	while (curr != nullptr)
+	{
+		ListNode* nextTemp = curr->next;
+		curr->next = prev;
+		prev = curr;
+		curr = nextTemp;
+	}
+	return prev;
+}
+
+void main1003()
 {
 	ListNode* list5 = new ListNode(5);
 	ListNode* list4 = new ListNode(4);
@@ -42,6 +83,6 @@ void main_110086()
 	list3->next = list4;
 	list4->next = list5;
 	list5->next = NULL;
-	reverse(list1);
+	reverse3(list1);
 	system("pause");
 }
