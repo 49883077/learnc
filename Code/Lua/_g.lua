@@ -1,3 +1,9 @@
+
+
+global_xxxxxx = 10
+
+
+
 function treaverse_global_env(curtable,level)  
     for key,value in pairs(curtable or {}) do  
     local prefix = string.rep(" ",level*5)  
